@@ -1,0 +1,82 @@
+body,
+input,
+button {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+}
+
+nav {
+  width: 100%;
+  white-space: nowrap;
+  line-height: 24px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul.no-bullets-list {
+  list-style-type: none;
+}
+
+.left-nav {
+  color: red;
+
+  padding-left: 15px;
+  color: #000;
+  opacity: 0.75;
+}
+
+.right-nav {
+  float: right;
+
+  padding-right: 15px;
+  min-width: 165px;
+
+  position: relative;
+  line-height: 24px;
+}
+.top-nav * {
+  display: inline;
+}
+section {
+  text-align: center;
+  display: block;
+}
+
+section input {
+  width: 582px;
+  background-color: transparent;
+  border: none;
+
+  outline: none;
+}
+.search-bar-row {
+  background: #fff;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+}
+
+h1 img {
+  padding-top: 109px;
+}
+h1 .google-logo {
+  height: 92px;
+  aspect-ratio: auto 272 / 92;
+  width: 272px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
